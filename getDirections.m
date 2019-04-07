@@ -1,3 +1,13 @@
+% calculates simplex directions given basic and nonbasic variables
+%
+% Arguements:
+% basics - set of basic variables
+% nonbasics - set of nonbasic variables
+% 
+% Output:
+% directions - set of possible simplex directions
+
+
 function directions = getDirections(basics,nonbasics,A)
 %getting B
 B = findB(A,basics,size(basics,1));
