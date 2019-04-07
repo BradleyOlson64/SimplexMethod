@@ -1,11 +1,11 @@
 % calculates the reduced cost given a direction
 %
-% Arguements:
+% Arguments:
 % c - objective function values
 % directions - set of possible simplex directions
 %
 % Output:
-% reducedCosts - set of reduced costs for a corrisponding direction
+% reducedCosts - set of reduced costs for a corresponding direction
 
 function reducedCosts = getReduced(c, directions)
 %init column vector of reduced costs

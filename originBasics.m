@@ -1,4 +1,4 @@
-%finds which columns of A are basic at the origin
+% finds which columns of A are basic at the origin
 %
 % Arguements:
 % A - constraint matrix

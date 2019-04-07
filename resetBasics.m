@@ -1,6 +1,6 @@
 %updates the basic and nonbasic variables
 %
-% Arugements:
+% Arguments:
 % basics - set of old basic variables
 % nonbasics - set of old nonbasic variables
 % entering - entering variables

@@ -1,13 +1,13 @@
-%calculates the stepsize of a given direction and point
+% calculates the stepsize of a given direction and point
 %
-%Arguements:
-%currLocation - the current point
-%dirChosen - the direction to move in
+% Arguments:
+% currLocation - the current point
+% dirChosen - the direction to move in
 %
-%Output:
-%stepSize - the step size
-%leaving - index of leaving var
-%hasDecreasingElement - states if direction has a decreasing element(unbounded)
+% Output:
+% stepSize - the step size
+% leaving - index of leaving var
+% hasDecreasingElement - states if direction has a decreasing element(unbounded)
 
 function [stepSize,leaving,hasDecreasingElement] = getStepSize(currLocation, dirChosen)
 %loop through rows of inputs dividing currLocation(i,1) by -dirChosen(i,1)
