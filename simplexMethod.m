@@ -1,5 +1,17 @@
 %Author Bradley Olson
 %Version 3/17/19
+%
+% Attempts to solve a linear program using the simplex method
+%
+% Arguements:
+% c - objective function values
+% A - constraing matrix
+% b - RHS constraints
+%
+% Output:
+% optimum - optimal value of LP
+% solution - point at which solution exists
+
 function [optimum, solution] = simplexMethod(c, A, b)
 % Checking for compatible dimensions
 if size(A,2) ~= size(c,1)
