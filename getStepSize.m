@@ -12,6 +12,7 @@
 function [stepSize,leaving,hasDecreasingElement] = getStepSize(currLocation, dirChosen)
 %loop through rows of inputs dividing currLocation(i,1) by -dirChosen(i,1)
 %wherever dirChosen(i,1) < 0;
+leaving = -1;
 smallestMax = -1;
 hasDecreasingElement = 0;
 for i = 1:size(dirChosen,1) %loop throgh components
