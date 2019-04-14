@@ -1,4 +1,4 @@
-  These files contain all the functions needed for my version of the simplex method as well as a test case script that runs the simplex method on one of our prior homework problems. 
+  These files contain all the functions needed for a functioning simplex method as well as a test case script that runs the simplex method on a simple problem. 
   
   To enact my example case place all the files in your active matlab directory and run the script entitled testCase.m.
   
