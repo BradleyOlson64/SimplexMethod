@@ -22,10 +22,6 @@ if size(A,1) ~= size(b,1)
     error("The number of rows in A and b do not match. They must match for the LP to be in canonical form. Check A and b.");
     return
 end
-if size(A,1) >= size(A,2)
-    error("The number of columns in A is less than the number of rows. This results in a problem that cannot be properly maximized or minimized. Check A.");
-    return
-end
 %putting basic columns of A into one array and nonbasic ones into another.
 [basics, nonbasics] = originBasics(A);
 numBasics = size(basics,1);
