@@ -1,4 +1,4 @@
-  This repository contains a set of matlab files that contain all the subprocesses of the simplex method. There is also a test case script that runs the simplex method on a simple problem. 
+  This repository contains a set of matlab files that contain all the subprocesses of the simplex method. There is also a test case script that runs the simplex method on a simple problem. The code enacted here uses the origin as the starting simplex location, and therefore doesn't work for problems with an infeasible origin.
   
   To enact my example case place all the files in your active matlab directory and run the script entitled testCase.m.
   
